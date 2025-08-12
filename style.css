@@ -66,7 +66,6 @@ main div.banner {
 }
 
 main div.bantext {
-    border: solid black  2px;
     width: 712px;
     height: 409px;
     display: flex;
@@ -121,5 +120,76 @@ main div.banner button.banbut {
     align-self: center;
 }
 
+main div.about {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;   
+    height: 1024px; 
+    padding: 60px 74px 92px 142px ;
+    background-color: #E4E0E1;
+}
 
+main img.aboutimg {
+    width: 484px;
+    height: 726px;
+    margin-right: 83px;
+    border-radius: 50px;
+}
+
+main div.abouttext {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: stretch;
+    text-align: right;
+}
+
+main h2.abouth2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: #493628;
+    margin: 0;
+    
+}
+
+main h3.aboutsub {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #493628;
+}
+
+main p.aboutparraf {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #493628;
+
+}
+
+.strong {
+    font-weight: 800;
+}
+
+main p.aboutcursiv {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #493628;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main img.aboutlogo {
+    width: 123px;
+    height: 117px;
+    align-self: center;
+}
 

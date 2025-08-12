@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: #E4E0E1;
+    height: 141px;
+}
+
+header img.cup  {
+    height: 105px;
+    width: 84px;
+}
+
+header img.letter  {
+    height: 51px;
+    width: 214px;
+}
+
+nav {
+    background-color: #D6C0B3;
+    height: 61px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+nav div.navbar{
+    margin-left: 385px;
+    margin-right: 385px;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+nav a {
+    font-family: "Gabarito", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #271D15;
+}
+
+main div.banner {
+    background-image: url(recursos/img_fond_sec1.png);
+    background-size: 100% auto;
+    height: 940px;
+    padding-top: 155px;
+    padding-left: 72px;
+
+}
+
+main div.bantext {
+    border: solid black  2px;
+    width: 712px;
+    height: 409px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+  
+
+}
+
+main h2.ban {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 64px;
+    color: #E4E0E1;
+    margin: 0;
+}
+
+
+
+main h2.ban img.banimg {
+    width: 309px;
+    height: 81px;
+    margin-bottom: -20px;
+}
+
+
+main p.bancont {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #E4E0E1;
+    width: 582px;
+    height: 40px;
+}
+
+main div.banner button.banbut {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    backdrop-filter: blur(5px); /* Desenfoque */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    border: 0.8px solid #E4E0E1; /* Borde ligero */
+    transition: background-color 0.3s ease; /* Transición suave */
+    color: #E4E0E1; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    width: 208px;
+    height: 63px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    align-self: center;
+}
+
+
+

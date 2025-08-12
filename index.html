@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="recursos/logo lunalatte.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Luna Latte</title>
 </head>
 <body>
     <header>
-        <img src="recursos/OnlyCup.svg" alt="">
-        <img src="recursos/OnlyText.svg" alt="">
+        <img class="cup" src="recursos/OnlyCup.svg" alt="">
+        <img class="letter" src="recursos/OnlyText.svg" alt="">
     </header>
     <nav>
-        <a href="">Inicio</a>
-        <a href="">About</a>
-        <a href="">Galeria</a>
-        <a href="">Contacto</a>
+        <div class="navbar">
+            <a href="">Inicio</a>
+            <a href="">About</a>
+            <a href="">Galeria</a>
+            <a href="">Contacto</a>
+        </div>
     </nav>
     <main>
-        <div class=""></div>
-            <h2>Despierta tus sentidos bajo la luz de</h2> 
-            <img src="recursos/OnlyText.svg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quidem explicabo blanditiis nostrum voluptatem, fugit modi hic assumenda iure suscipit corrupti magnam, tempore repellendus laborum voluptate cumque! Quae, inventore repellendus.</p>
-            <button>Lorem Ipsum</button>
-        <div class=""></div>
-            <img src="recursos/img_section2.jpg" alt="">
-            <h2>Quienes Somos</h2>
+        <div class="banner">
+            <div class="bantext">
+                <h2 class="ban">Despierta tus sentidos bajo la luz de <img class="banimg" src="recursos/Text banner.svg" alt="">.</h2>
+                
+                <p class="bancont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim massa, facilisis ac enim sit amet, semper cursus lorem.</p>
+                <button class="banbut">Lorem Ipsum</button>
+            </div>
+        </div>
+
+        <div class="about">
+            <img class="abouyimg" src="recursos/img_section2.jpg" alt="">
+            <h2 class="abouth2">Quienes Somos</h2>
             <h3>Inspiracion</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus perferendis libero dignissimos. Odit consequatur, quos repudiandae debitis aliquid laborum soluta tenetur, praesentium odio blanditiis reiciendis accusamus dignissimos nam magnam</p>
             <h3>Misión y Visión</h3>
@@ -35,8 +45,9 @@
 
             <p>Usamos granos seleccionados de origen único y técnicas de preparación artesanales. Cada bebida está pensada para ser una obra de arte servida con pasión.</p>
             <img src="recursos/Logo(1).svg" alt="">
+        </div>
 
-        <div class=""></div>
+        <div class="galery">
             <h2>Galeria</h2>
             <table>
                 <tr>
@@ -60,7 +71,8 @@
                     El aroma que emite y el sabor ligero y dulce de estos dos elementos hace que el moca sea uno de los tipos de café más populares en todo el mundo.</td>
                 </tr>
             </table>
-        <div class="">
+        </div>
+        <div class="contact">
             <aside>
                 <h3>Tipos de granos de café</h3>
                 <h4>Arábica</h4>
